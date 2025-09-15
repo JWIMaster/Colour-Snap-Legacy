@@ -9,19 +9,85 @@
 /* Begin PBXBuildFile section */
 		5F9A79582E78DCB2004C7B4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A79572E78DCB2004C7B4A /* AppDelegate.swift */; };
 		5F9A795A2E78DCB2004C7B4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A79592E78DCB2004C7B4A /* ViewController.swift */; };
-		5F9A795D2E78DCB2004C7B4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9A795B2E78DCB2004C7B4A /* Main.storyboard */; };
 		5F9A795F2E78DCB2004C7B4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9A795E2E78DCB2004C7B4A /* Assets.xcassets */; };
-		5F9A79622E78DCB2004C7B4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F9A79602E78DCB2004C7B4A /* LaunchScreen.storyboard */; };
+		5F9A7A522E78DDC6004C7B4A /* CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A252E78DDC6004C7B4A /* CGSize.swift */; };
+		5F9A7A532E78DDC6004C7B4A /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A262E78DDC6004C7B4A /* CGPoint.swift */; };
+		5F9A7A542E78DDC6004C7B4A /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A272E78DDC6004C7B4A /* CGFloat.swift */; };
+		5F9A7A552E78DDC6004C7B4A /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A282E78DDC6004C7B4A /* CGRect.swift */; };
+		5F9A7A562E78DDC6004C7B4A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A2A2E78DDC6004C7B4A /* UIView.swift */; };
+		5F9A7A572E78DDC6004C7B4A /* UIModalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A2B2E78DDC6004C7B4A /* UIModalTransition.swift */; };
+		5F9A7A582E78DDC6004C7B4A /* UIControlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A2C2E78DDC6004C7B4A /* UIControlState.swift */; };
+		5F9A7A592E78DDC6004C7B4A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A2D2E78DDC6004C7B4A /* UIColor.swift */; };
+		5F9A7A5A2E78DDC6004C7B4A /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A2E2E78DDC6004C7B4A /* UIButton.swift */; };
+		5F9A7A5B2E78DDC6004C7B4A /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A2F2E78DDC6004C7B4A /* UIViewController.swift */; };
+		5F9A7A5C2E78DDC6004C7B4A /* NSLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A302E78DDC6004C7B4A /* NSLayoutAttributes.swift */; };
+		5F9A7A5D2E78DDC6004C7B4A /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A312E78DDC6004C7B4A /* UIFont.swift */; };
+		5F9A7A5E2E78DDC6004C7B4A /* UIViewAutoResizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A322E78DDC6004C7B4A /* UIViewAutoResizing.swift */; };
+		5F9A7A5F2E78DDC6004C7B4A /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A332E78DDC6004C7B4A /* UIScreen.swift */; };
+		5F9A7A602E78DDC6004C7B4A /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A352E78DDC6004C7B4A /* DispatchQueue.swift */; };
+		5F9A7A612E78DDC6004C7B4A /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A372E78DDC6004C7B4A /* Array.swift */; };
+		5F9A7A622E78DDC6004C7B4A /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A382E78DDC6004C7B4A /* Timer.swift */; };
+		5F9A7A632E78DDC6004C7B4A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A392E78DDC6004C7B4A /* String.swift */; };
+		5F9A7A642E78DDC6004C7B4A /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A3C2E78DDC6004C7B4A /* NSLayoutConstraint.swift */; };
+		5F9A7A652E78DDC6004C7B4A /* OAStackView+Hiding.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A3F2E78DDC6004C7B4A /* OAStackView+Hiding.m */; };
+		5F9A7A662E78DDC6004C7B4A /* OAStackView+Constraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A402E78DDC6004C7B4A /* OAStackView+Constraint.m */; };
+		5F9A7A672E78DDC6004C7B4A /* OAStackView+Traversal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A412E78DDC6004C7B4A /* OAStackView+Traversal.m */; };
+		5F9A7A682E78DDC6004C7B4A /* _OALayoutGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A422E78DDC6004C7B4A /* _OALayoutGuide.m */; };
+		5F9A7A692E78DDC6004C7B4A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 5F9A7A442E78DDC6004C7B4A /* .gitkeep */; };
+		5F9A7A6A2E78DDC6004C7B4A /* OAStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A452E78DDC6004C7B4A /* OAStackView.m */; };
+		5F9A7A6B2E78DDC6004C7B4A /* OATransformLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A462E78DDC6004C7B4A /* OATransformLayer.m */; };
+		5F9A7A6C2E78DDC6004C7B4A /* OAStackViewDistributionStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A472E78DDC6004C7B4A /* OAStackViewDistributionStrategy.m */; };
+		5F9A7A6D2E78DDC6004C7B4A /* UIStackViewTypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A482E78DDC6004C7B4A /* UIStackViewTypeAlias.swift */; };
+		5F9A7A6E2E78DDC6004C7B4A /* OAStackViewAlignmentStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A492E78DDC6004C7B4A /* OAStackViewAlignmentStrategy.m */; };
+		5F9A7A6F2E78DDC6004C7B4A /* OAStackViewAlignmentStrategyBaseline.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A4A2E78DDC6004C7B4A /* OAStackViewAlignmentStrategyBaseline.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F9A79542E78DCB1004C7B4A /* Colour Snap Legacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colour Snap Legacy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9A79572E78DCB2004C7B4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F9A79592E78DCB2004C7B4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5F9A795C2E78DCB2004C7B4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F9A795E2E78DCB2004C7B4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5F9A79612E78DCB2004C7B4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F9A79632E78DCB2004C7B4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9A7A252E78DDC6004C7B4A /* CGSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGSize.swift; sourceTree = "<group>"; };
+		5F9A7A262E78DDC6004C7B4A /* CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		5F9A7A272E78DDC6004C7B4A /* CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		5F9A7A282E78DDC6004C7B4A /* CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRect.swift; sourceTree = "<group>"; };
+		5F9A7A2A2E78DDC6004C7B4A /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		5F9A7A2B2E78DDC6004C7B4A /* UIModalTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIModalTransition.swift; sourceTree = "<group>"; };
+		5F9A7A2C2E78DDC6004C7B4A /* UIControlState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIControlState.swift; sourceTree = "<group>"; };
+		5F9A7A2D2E78DDC6004C7B4A /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		5F9A7A2E2E78DDC6004C7B4A /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		5F9A7A2F2E78DDC6004C7B4A /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		5F9A7A302E78DDC6004C7B4A /* NSLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutAttributes.swift; sourceTree = "<group>"; };
+		5F9A7A312E78DDC6004C7B4A /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		5F9A7A322E78DDC6004C7B4A /* UIViewAutoResizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAutoResizing.swift; sourceTree = "<group>"; };
+		5F9A7A332E78DDC6004C7B4A /* UIScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
+		5F9A7A352E78DDC6004C7B4A /* DispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueue.swift; sourceTree = "<group>"; };
+		5F9A7A372E78DDC6004C7B4A /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		5F9A7A382E78DDC6004C7B4A /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		5F9A7A392E78DDC6004C7B4A /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		5F9A7A3B2E78DDC6004C7B4A /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		5F9A7A3C2E78DDC6004C7B4A /* NSLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraint.swift; sourceTree = "<group>"; };
+		5F9A7A3E2E78DDC6004C7B4A /* OAStackViewAlignmentStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAStackViewAlignmentStrategy.h; sourceTree = "<group>"; };
+		5F9A7A3F2E78DDC6004C7B4A /* OAStackView+Hiding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAStackView+Hiding.m"; sourceTree = "<group>"; };
+		5F9A7A402E78DDC6004C7B4A /* OAStackView+Constraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAStackView+Constraint.m"; sourceTree = "<group>"; };
+		5F9A7A412E78DDC6004C7B4A /* OAStackView+Traversal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAStackView+Traversal.m"; sourceTree = "<group>"; };
+		5F9A7A422E78DDC6004C7B4A /* _OALayoutGuide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _OALayoutGuide.m; sourceTree = "<group>"; };
+		5F9A7A432E78DDC6004C7B4A /* OAStackViewAlignmentStrategyBaseline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAStackViewAlignmentStrategyBaseline.h; sourceTree = "<group>"; };
+		5F9A7A442E78DDC6004C7B4A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		5F9A7A452E78DDC6004C7B4A /* OAStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAStackView.m; sourceTree = "<group>"; };
+		5F9A7A462E78DDC6004C7B4A /* OATransformLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OATransformLayer.m; sourceTree = "<group>"; };
+		5F9A7A472E78DDC6004C7B4A /* OAStackViewDistributionStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAStackViewDistributionStrategy.m; sourceTree = "<group>"; };
+		5F9A7A482E78DDC6004C7B4A /* UIStackViewTypeAlias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStackViewTypeAlias.swift; sourceTree = "<group>"; };
+		5F9A7A492E78DDC6004C7B4A /* OAStackViewAlignmentStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAStackViewAlignmentStrategy.m; sourceTree = "<group>"; };
+		5F9A7A4A2E78DDC6004C7B4A /* OAStackViewAlignmentStrategyBaseline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAStackViewAlignmentStrategyBaseline.m; sourceTree = "<group>"; };
+		5F9A7A4B2E78DDC6004C7B4A /* _OALayoutGuide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _OALayoutGuide.h; sourceTree = "<group>"; };
+		5F9A7A4C2E78DDC6004C7B4A /* OAStackView+Traversal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAStackView+Traversal.h"; sourceTree = "<group>"; };
+		5F9A7A4D2E78DDC6004C7B4A /* OAStackView+Constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAStackView+Constraint.h"; sourceTree = "<group>"; };
+		5F9A7A4E2E78DDC6004C7B4A /* OAStackView+Hiding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAStackView+Hiding.h"; sourceTree = "<group>"; };
+		5F9A7A4F2E78DDC6004C7B4A /* OAStackViewDistributionStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAStackViewDistributionStrategy.h; sourceTree = "<group>"; };
+		5F9A7A502E78DDC6004C7B4A /* OATransformLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OATransformLayer.h; sourceTree = "<group>"; };
+		5F9A7A512E78DDC6004C7B4A /* OAStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAStackView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +122,106 @@
 			children = (
 				5F9A79572E78DCB2004C7B4A /* AppDelegate.swift */,
 				5F9A79592E78DCB2004C7B4A /* ViewController.swift */,
-				5F9A795B2E78DCB2004C7B4A /* Main.storyboard */,
 				5F9A795E2E78DCB2004C7B4A /* Assets.xcassets */,
-				5F9A79602E78DCB2004C7B4A /* LaunchScreen.storyboard */,
 				5F9A79632E78DCB2004C7B4A /* Info.plist */,
+				5F9A7A232E78DDC6004C7B4A /* SwiftCompatKit */,
+				5F9A7A3A2E78DDC6004C7B4A /* UIKitCompatKit */,
 			);
 			path = "Colour Snap Legacy";
+			sourceTree = "<group>";
+		};
+		5F9A7A232E78DDC6004C7B4A /* SwiftCompatKit */ = {
+			isa = PBXGroup;
+			children = (
+				5F9A7A242E78DDC6004C7B4A /* CoreGraphics */,
+				5F9A7A292E78DDC6004C7B4A /* UIKit */,
+				5F9A7A342E78DDC6004C7B4A /* Dispatch */,
+				5F9A7A362E78DDC6004C7B4A /* Foundation */,
+			);
+			path = SwiftCompatKit;
+			sourceTree = "<group>";
+		};
+		5F9A7A242E78DDC6004C7B4A /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				5F9A7A252E78DDC6004C7B4A /* CGSize.swift */,
+				5F9A7A262E78DDC6004C7B4A /* CGPoint.swift */,
+				5F9A7A272E78DDC6004C7B4A /* CGFloat.swift */,
+				5F9A7A282E78DDC6004C7B4A /* CGRect.swift */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		5F9A7A292E78DDC6004C7B4A /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5F9A7A2A2E78DDC6004C7B4A /* UIView.swift */,
+				5F9A7A2B2E78DDC6004C7B4A /* UIModalTransition.swift */,
+				5F9A7A2C2E78DDC6004C7B4A /* UIControlState.swift */,
+				5F9A7A2D2E78DDC6004C7B4A /* UIColor.swift */,
+				5F9A7A2E2E78DDC6004C7B4A /* UIButton.swift */,
+				5F9A7A2F2E78DDC6004C7B4A /* UIViewController.swift */,
+				5F9A7A302E78DDC6004C7B4A /* NSLayoutAttributes.swift */,
+				5F9A7A312E78DDC6004C7B4A /* UIFont.swift */,
+				5F9A7A322E78DDC6004C7B4A /* UIViewAutoResizing.swift */,
+				5F9A7A332E78DDC6004C7B4A /* UIScreen.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		5F9A7A342E78DDC6004C7B4A /* Dispatch */ = {
+			isa = PBXGroup;
+			children = (
+				5F9A7A352E78DDC6004C7B4A /* DispatchQueue.swift */,
+			);
+			path = Dispatch;
+			sourceTree = "<group>";
+		};
+		5F9A7A362E78DDC6004C7B4A /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				5F9A7A372E78DDC6004C7B4A /* Array.swift */,
+				5F9A7A382E78DDC6004C7B4A /* Timer.swift */,
+				5F9A7A392E78DDC6004C7B4A /* String.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		5F9A7A3A2E78DDC6004C7B4A /* UIKitCompatKit */ = {
+			isa = PBXGroup;
+			children = (
+				5F9A7A3B2E78DDC6004C7B4A /* BridgingHeader.h */,
+				5F9A7A3C2E78DDC6004C7B4A /* NSLayoutConstraint.swift */,
+				5F9A7A3D2E78DDC6004C7B4A /* OAStackView */,
+			);
+			path = UIKitCompatKit;
+			sourceTree = "<group>";
+		};
+		5F9A7A3D2E78DDC6004C7B4A /* OAStackView */ = {
+			isa = PBXGroup;
+			children = (
+				5F9A7A3E2E78DDC6004C7B4A /* OAStackViewAlignmentStrategy.h */,
+				5F9A7A3F2E78DDC6004C7B4A /* OAStackView+Hiding.m */,
+				5F9A7A402E78DDC6004C7B4A /* OAStackView+Constraint.m */,
+				5F9A7A412E78DDC6004C7B4A /* OAStackView+Traversal.m */,
+				5F9A7A422E78DDC6004C7B4A /* _OALayoutGuide.m */,
+				5F9A7A432E78DDC6004C7B4A /* OAStackViewAlignmentStrategyBaseline.h */,
+				5F9A7A442E78DDC6004C7B4A /* .gitkeep */,
+				5F9A7A452E78DDC6004C7B4A /* OAStackView.m */,
+				5F9A7A462E78DDC6004C7B4A /* OATransformLayer.m */,
+				5F9A7A472E78DDC6004C7B4A /* OAStackViewDistributionStrategy.m */,
+				5F9A7A482E78DDC6004C7B4A /* UIStackViewTypeAlias.swift */,
+				5F9A7A492E78DDC6004C7B4A /* OAStackViewAlignmentStrategy.m */,
+				5F9A7A4A2E78DDC6004C7B4A /* OAStackViewAlignmentStrategyBaseline.m */,
+				5F9A7A4B2E78DDC6004C7B4A /* _OALayoutGuide.h */,
+				5F9A7A4C2E78DDC6004C7B4A /* OAStackView+Traversal.h */,
+				5F9A7A4D2E78DDC6004C7B4A /* OAStackView+Constraint.h */,
+				5F9A7A4E2E78DDC6004C7B4A /* OAStackView+Hiding.h */,
+				5F9A7A4F2E78DDC6004C7B4A /* OAStackViewDistributionStrategy.h */,
+				5F9A7A502E78DDC6004C7B4A /* OATransformLayer.h */,
+				5F9A7A512E78DDC6004C7B4A /* OAStackView.h */,
+			);
+			path = OAStackView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +256,7 @@
 				TargetAttributes = {
 					5F9A79532E78DCB1004C7B4A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GA4W4X6894;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +284,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F9A79622E78DCB2004C7B4A /* LaunchScreen.storyboard in Resources */,
 				5F9A795F2E78DCB2004C7B4A /* Assets.xcassets in Resources */,
-				5F9A795D2E78DCB2004C7B4A /* Main.storyboard in Resources */,
+				5F9A7A692E78DDC6004C7B4A /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +296,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F9A7A6C2E78DDC6004C7B4A /* OAStackViewDistributionStrategy.m in Sources */,
+				5F9A7A572E78DDC6004C7B4A /* UIModalTransition.swift in Sources */,
+				5F9A7A6E2E78DDC6004C7B4A /* OAStackViewAlignmentStrategy.m in Sources */,
+				5F9A7A542E78DDC6004C7B4A /* CGFloat.swift in Sources */,
+				5F9A7A632E78DDC6004C7B4A /* String.swift in Sources */,
+				5F9A7A6F2E78DDC6004C7B4A /* OAStackViewAlignmentStrategyBaseline.m in Sources */,
+				5F9A7A5E2E78DDC6004C7B4A /* UIViewAutoResizing.swift in Sources */,
+				5F9A7A5B2E78DDC6004C7B4A /* UIViewController.swift in Sources */,
+				5F9A7A6D2E78DDC6004C7B4A /* UIStackViewTypeAlias.swift in Sources */,
+				5F9A7A552E78DDC6004C7B4A /* CGRect.swift in Sources */,
+				5F9A7A532E78DDC6004C7B4A /* CGPoint.swift in Sources */,
+				5F9A7A6A2E78DDC6004C7B4A /* OAStackView.m in Sources */,
+				5F9A7A562E78DDC6004C7B4A /* UIView.swift in Sources */,
+				5F9A7A5F2E78DDC6004C7B4A /* UIScreen.swift in Sources */,
+				5F9A7A622E78DDC6004C7B4A /* Timer.swift in Sources */,
+				5F9A7A672E78DDC6004C7B4A /* OAStackView+Traversal.m in Sources */,
+				5F9A7A642E78DDC6004C7B4A /* NSLayoutConstraint.swift in Sources */,
+				5F9A7A662E78DDC6004C7B4A /* OAStackView+Constraint.m in Sources */,
+				5F9A7A5C2E78DDC6004C7B4A /* NSLayoutAttributes.swift in Sources */,
+				5F9A7A612E78DDC6004C7B4A /* Array.swift in Sources */,
+				5F9A7A602E78DDC6004C7B4A /* DispatchQueue.swift in Sources */,
+				5F9A7A582E78DDC6004C7B4A /* UIControlState.swift in Sources */,
 				5F9A795A2E78DCB2004C7B4A /* ViewController.swift in Sources */,
+				5F9A7A6B2E78DDC6004C7B4A /* OATransformLayer.m in Sources */,
+				5F9A7A682E78DDC6004C7B4A /* _OALayoutGuide.m in Sources */,
+				5F9A7A522E78DDC6004C7B4A /* CGSize.swift in Sources */,
+				5F9A7A5D2E78DDC6004C7B4A /* UIFont.swift in Sources */,
+				5F9A7A5A2E78DDC6004C7B4A /* UIButton.swift in Sources */,
 				5F9A79582E78DCB2004C7B4A /* AppDelegate.swift in Sources */,
+				5F9A7A652E78DDC6004C7B4A /* OAStackView+Hiding.m in Sources */,
+				5F9A7A592E78DDC6004C7B4A /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5F9A795B2E78DCB2004C7B4A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F9A795C2E78DCB2004C7B4A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5F9A79602E78DCB2004C7B4A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F9A79612E78DCB2004C7B4A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5F9A79642E78DCB2004C7B4A /* Debug */ = {
@@ -260,11 +430,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GA4W4X6894;
 				INFOPLIST_FILE = "Colour Snap Legacy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jwi.Colour-Snap-Legacy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Colour Snap Legacy/UIKitCompatKit/BridgingHeader.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -272,11 +444,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GA4W4X6894;
 				INFOPLIST_FILE = "Colour Snap Legacy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jwi.Colour-Snap-Legacy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Colour Snap Legacy/UIKitCompatKit/BridgingHeader.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
