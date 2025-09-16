@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         
         // Set root view controller
-        let rootVC = ViewController()
+        let rootVC = MainMenuViewController()
         window?.rootViewController = rootVC
         
         // Flexible autoresizing for root view
