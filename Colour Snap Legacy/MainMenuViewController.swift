@@ -12,15 +12,38 @@ class MainMenuViewController: UIViewController {
     let gameTitle = UILabel()
     let playButton = UIButton(type: .Custom)
     let viewStack = UIStackView()
+    let mainMenuUIColourChanger = UIColourChanger()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .white
+        view.backgroundColor = UIColor(red: .random(in: 0...0.5), green: .random(in: 0...0.5), blue: .random(in: 0...0.5))
+        
+        mainMenuUIColourChanger.changeBackgroundColour()
+        
+        mainMenuUIColourChanger.onBackgroundColourChange = { newColour in
+            UIView.animate(withDuration: 1.5) {
+                self.view.backgroundColor = newColour
+            }
+        }
+        
+        
         
         gameTitle.text = "Colour Snap!"
         gameTitle.font = UIFont.systemFont(ofSize: 30)
         gameTitle.translatesAutoresizingMaskIntoConstraints = false
+        gameTitle.layer.shadowOpacity = 0.4
+        gameTitle.layer.shadowRadius = 12
+        
+        mainMenuUIColourChanger.changeTitleColour()
+        
+        mainMenuUIColourChanger.onTitleColourChange = { newColour in
+            UIView.transition(with: self.gameTitle, duration: 0.5, options: .TransitionCrossDissolve, animations: {
+                self.gameTitle.textColor = newColour
+                self.gameTitle.layer.shadowColor = newColour.CGColor
+                }, completion: nil)
+        }
+        
         
         playButton.setTitle("Play", for: .Normal)
         playButton.translatesAutoresizingMaskIntoConstraints = false
@@ -67,5 +90,25 @@ class MainMenuViewController: UIViewController {
 }
 
 class UIColourChanger {
+    var currentBackgroundColour: UIColor = .clear
+    var onBackgroundColourChange: ((UIColor) -> Void)?
     
+    var currentTitleColour: UIColor = .clear
+    var onTitleColourChange: ((UIColor) -> Void)?
+    
+    
+    
+    func changeBackgroundColour() {
+        let _ = Timer.scheduledTimer(withTimeInterval: 1.5, repeats: true) { _ in
+            self.currentBackgroundColour = UIColor(red: .random(in: 0...0.5), green: .random(in: 0...0.5), blue: .random(in: 0...0.5))
+            self.onBackgroundColourChange?(self.currentBackgroundColour)
+        }
+    }
+    
+    func changeTitleColour() {
+        let _ = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { _ in
+            self.currentTitleColour = UIColor(red: .random(in: 0.5...1), green: .random(in: 0.5...1), blue: .random(in: 0.5...1))
+            self.onTitleColourChange?(self.currentTitleColour)
+        }
+    }
 }
