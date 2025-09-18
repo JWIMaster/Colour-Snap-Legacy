@@ -61,8 +61,11 @@ class MainMenuViewController: UIViewController {
         }
         
         
+        viewStack.addArrangedSubview(SpacerView.spacer())
         viewStack.addArrangedSubview(gameTitle)
+        viewStack.addArrangedSubview(SpacerView.spacer())
         viewStack.addArrangedSubview(playButton)
+        viewStack.addArrangedSubview(SpacerView.spacer())
         viewStack.axis = .Vertical
         viewStack.alignment = .Center
         viewStack.distribution = .FillEqually
@@ -75,8 +78,6 @@ class MainMenuViewController: UIViewController {
     
     func setupConstraints() {
         NSLayoutConstraint.activate([
-            viewStack.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            viewStack.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             viewStack.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             viewStack.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20),
             viewStack.topAnchor.constraint(equalTo: view.topAnchor, constant: 20),

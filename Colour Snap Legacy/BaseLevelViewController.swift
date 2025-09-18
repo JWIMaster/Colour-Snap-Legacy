@@ -29,9 +29,7 @@ class BaseLevelViewController: UIViewController {
         backToMainMenuButton.translatesAutoresizingMaskIntoConstraints = false
         backToMainMenuButton.adjustsImageWhenHighlighted = false
         backToMainMenuButton.addAction(for: .AllTouchEvents) {
-            let mainMenuVC = MainMenuViewController()
-            mainMenuVC.modalTransitionStyle = .CrossDissolve
-            self.present(mainMenuVC, animated: true)
+            self.dismiss(true, completion: nil)
         }
         
         view.addSubview(backToMainMenuButton)

@@ -42,6 +42,7 @@
 		5F9A7A6D2E78DDC6004C7B4A /* UIStackViewTypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A482E78DDC6004C7B4A /* UIStackViewTypeAlias.swift */; };
 		5F9A7A6E2E78DDC6004C7B4A /* OAStackViewAlignmentStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A492E78DDC6004C7B4A /* OAStackViewAlignmentStrategy.m */; };
 		5F9A7A6F2E78DDC6004C7B4A /* OAStackViewAlignmentStrategyBaseline.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A7A4A2E78DDC6004C7B4A /* OAStackViewAlignmentStrategyBaseline.m */; };
+		5FE875182E7C253100ACEBB8 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE875172E7C253100ACEBB8 /* SpacerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,7 @@
 		5F9A7A4F2E78DDC6004C7B4A /* OAStackViewDistributionStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAStackViewDistributionStrategy.h; sourceTree = "<group>"; };
 		5F9A7A502E78DDC6004C7B4A /* OATransformLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OATransformLayer.h; sourceTree = "<group>"; };
 		5F9A7A512E78DDC6004C7B4A /* OAStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAStackView.h; sourceTree = "<group>"; };
+		5FE875172E7C253100ACEBB8 /* SpacerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				5F9A7A232E78DDC6004C7B4A /* SwiftCompatKit */,
 				5F9A7A3A2E78DDC6004C7B4A /* UIKitCompatKit */,
 				5F12744F2E7BC1D20094A941 /* UIColourChanger.swift */,
+				5FE875152E7C253100ACEBB8 /* UIKitExtensions */,
 				5F1274512E7BC29C0094A941 /* BaseLevelViewController.swift */,
 			);
 			path = "Colour Snap Legacy";
@@ -228,6 +231,22 @@
 				5F9A7A512E78DDC6004C7B4A /* OAStackView.h */,
 			);
 			path = OAStackView;
+			sourceTree = "<group>";
+		};
+		5FE875152E7C253100ACEBB8 /* UIKitExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				5FE875162E7C253100ACEBB8 /* FXBlurView */,
+				5FE875172E7C253100ACEBB8 /* SpacerView.swift */,
+			);
+			path = UIKitExtensions;
+			sourceTree = "<group>";
+		};
+		5FE875162E7C253100ACEBB8 /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FXBlurView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +353,7 @@
 				5F9A7A5A2E78DDC6004C7B4A /* UIButton.swift in Sources */,
 				5F9A79582E78DCB2004C7B4A /* AppDelegate.swift in Sources */,
 				5F9A7A652E78DDC6004C7B4A /* OAStackView+Hiding.m in Sources */,
+				5FE875182E7C253100ACEBB8 /* SpacerView.swift in Sources */,
 				5F9A7A592E78DDC6004C7B4A /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jwi.Colour-Snap-Legacy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Colour Snap Legacy/UIKitCompatKit/BridgingHeader.h";
 				SWIFT_VERSION = 2.3;
 			};
@@ -461,6 +482,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jwi.Colour-Snap-Legacy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Colour Snap Legacy/UIKitCompatKit/BridgingHeader.h";
 				SWIFT_VERSION = 2.3;
 			};
