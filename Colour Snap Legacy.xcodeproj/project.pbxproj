@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F1274502E7BC1D20094A941 /* UIColourChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F12744F2E7BC1D20094A941 /* UIColourChanger.swift */; };
+		5F1274522E7BC29C0094A941 /* BaseLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1274512E7BC29C0094A941 /* BaseLevelViewController.swift */; };
 		5F9A79582E78DCB2004C7B4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A79572E78DCB2004C7B4A /* AppDelegate.swift */; };
 		5F9A795A2E78DCB2004C7B4A /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9A79592E78DCB2004C7B4A /* MainMenuViewController.swift */; };
 		5F9A795F2E78DCB2004C7B4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9A795E2E78DCB2004C7B4A /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F12744F2E7BC1D20094A941 /* UIColourChanger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColourChanger.swift; sourceTree = "<group>"; };
+		5F1274512E7BC29C0094A941 /* BaseLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLevelViewController.swift; sourceTree = "<group>"; };
 		5F9A79542E78DCB1004C7B4A /* Colour Snap Legacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colour Snap Legacy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9A79572E78DCB2004C7B4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F9A79592E78DCB2004C7B4A /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 				5F9A79632E78DCB2004C7B4A /* Info.plist */,
 				5F9A7A232E78DDC6004C7B4A /* SwiftCompatKit */,
 				5F9A7A3A2E78DDC6004C7B4A /* UIKitCompatKit */,
+				5F12744F2E7BC1D20094A941 /* UIColourChanger.swift */,
+				5F1274512E7BC29C0094A941 /* BaseLevelViewController.swift */,
 			);
 			path = "Colour Snap Legacy";
 			sourceTree = "<group>";
@@ -317,11 +323,13 @@
 				5F9A7A5C2E78DDC6004C7B4A /* NSLayoutAttributes.swift in Sources */,
 				5F9A7A612E78DDC6004C7B4A /* Array.swift in Sources */,
 				5F9A7A602E78DDC6004C7B4A /* DispatchQueue.swift in Sources */,
+				5F1274522E7BC29C0094A941 /* BaseLevelViewController.swift in Sources */,
 				5F9A7A582E78DDC6004C7B4A /* UIControlState.swift in Sources */,
 				5F9A795A2E78DCB2004C7B4A /* MainMenuViewController.swift in Sources */,
 				5F9A7A6B2E78DDC6004C7B4A /* OATransformLayer.m in Sources */,
 				5F9A7A682E78DDC6004C7B4A /* _OALayoutGuide.m in Sources */,
 				5F9A7A522E78DDC6004C7B4A /* CGSize.swift in Sources */,
+				5F1274502E7BC1D20094A941 /* UIColourChanger.swift in Sources */,
 				5F9A7A5D2E78DDC6004C7B4A /* UIFont.swift in Sources */,
 				5F9A7A5A2E78DDC6004C7B4A /* UIButton.swift in Sources */,
 				5F9A79582E78DCB2004C7B4A /* AppDelegate.swift in Sources */,

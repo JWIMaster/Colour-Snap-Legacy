@@ -48,10 +48,17 @@ class MainMenuViewController: UIViewController {
         playButton.setTitle("Play", for: .Normal)
         playButton.translatesAutoresizingMaskIntoConstraints = false
         playButton.adjustsImageWhenHighlighted = false
+        playButton.adjustsImageWhenDisabled = false
         playButton.backgroundColor = UIColor.gray.withAlphaComponent(0.4)
         playButton.layer.shadowColor = UIColor.black.CGColor
         playButton.layer.shadowRadius = 12
         playButton.layer.shadowOpacity = 0.4
+        playButton.addAction(for: .TouchUpInside) {
+            print("Play button clicked")
+            let baseLevelVC = BaseLevelViewController()
+            baseLevelVC.modalTransitionStyle = .CrossDissolve
+            self.present(baseLevelVC, animated: true)
+        }
         
         
         viewStack.addArrangedSubview(gameTitle)
@@ -89,26 +96,4 @@ class MainMenuViewController: UIViewController {
 
 }
 
-class UIColourChanger {
-    var currentBackgroundColour: UIColor = .clear
-    var onBackgroundColourChange: ((UIColor) -> Void)?
     
-    var currentTitleColour: UIColor = .clear
-    var onTitleColourChange: ((UIColor) -> Void)?
-    
-    
-    
-    func changeBackgroundColour() {
-        let _ = Timer.scheduledTimer(withTimeInterval: 1.5, repeats: true) { _ in
-            self.currentBackgroundColour = UIColor(red: .random(in: 0...0.5), green: .random(in: 0...0.5), blue: .random(in: 0...0.5))
-            self.onBackgroundColourChange?(self.currentBackgroundColour)
-        }
-    }
-    
-    func changeTitleColour() {
-        let _ = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true) { _ in
-            self.currentTitleColour = UIColor(red: .random(in: 0.5...1), green: .random(in: 0.5...1), blue: .random(in: 0.5...1))
-            self.onTitleColourChange?(self.currentTitleColour)
-        }
-    }
-}
